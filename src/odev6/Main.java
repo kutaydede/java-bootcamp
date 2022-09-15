@@ -25,7 +25,7 @@ public class Main {
                 System.out.println("Malesef kaldınız");
                 break;
             default:
-                System.out.println("Geçersiz not");
+                System.out.println("eçersiz not");
         }
     }
 }
