@@ -3,19 +3,17 @@ package classesWithAttributes;
 public class Main {
     public static void main(String[] args) {
         Product product = new Product();
-        product.name = "Laptop";
-        product.id = 123456789;
-        product.description = "Cesper Excelıbur";
-        product.price = 270000;
-        product.stockAmount = 2;
+        product.setName("Laptop");
+        product.setId(123456789);
+        product.setDescription("Cesper Excelıbur");
+        product.setPrice(270000);
+        product.setStockAmount(2);
 
-        ProductManager productManager = new ProductManager();
-        productManager.Add(product);
 
-        System.out.println(product.name);
-        System.out.println(product.id);
-        System.out.println(product.description);
-        System.out.println(product.price);
-        System.out.println(product.stockAmount);
+        System.out.println(product.getName());
+        System.out.println(product.getDescription());
+        System.out.println(product.getPrice());
+        System.out.println(product.getStockAmount());
+        System.out.println(product.getKod());
     }
 }
